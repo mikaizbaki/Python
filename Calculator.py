@@ -1,5 +1,6 @@
 def calculator():
     people = int(input("How many people are sharing the bill? "))
+    input ("What are the names of the people?")
     total = float(input("What's the total bill amount? $"))
     tip = int(input("What percentage tip would you like to leave? (e.g., 20 for 20%) "))
 
@@ -16,6 +17,9 @@ def calculator():
 
         print("Total bill plus tip: $%.2f" % total_with_tip)
         print("Each person should pay: $%.2f" % each_person)
+    
+    if tip > 20:
+        print("Thank you for yor generosity!")
 
 
 calculator()

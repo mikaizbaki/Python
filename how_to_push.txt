@@ -1,0 +1,4 @@
+1. First you need to add the files into the git
+git add .
+. = all files that were changed
+git add <file>

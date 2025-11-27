@@ -1,8 +1,11 @@
 1. First you need to add the files into the git
     git add .
 
-. = all files that were changed
+    or
+    
     git add <file>
+
+        (. = all files that were changed)
 
 2. You need to write the commit message
     git commit -m "how_to_push.txt created"
